@@ -18,13 +18,11 @@ use threadpool::ThreadPool;
 ///     assert_eq!(97, largest_prime);
 /// }
 ///```
-///
 ///```
 /// if let Some(largest_prime) = primes::largest_prime((11, 11)) {
 ///     assert_eq!(11, largest_prime);
 /// }
 ///```
-///
 ///```
 /// let largest_prime = primes::largest_prime((14, 16));
 /// assert!(largest_prime.is_none());
